@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ── Chicken body (white, rounded) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M54,72
+            C40,72 30,64 30,54
+            C30,42 40,36 54,36
+            C68,36 78,42 78,54
+            C78,64 68,72 54,72 Z"/>
+
+    <!-- ── Left wing ── -->
+    <path
+        android:fillColor="#E8F5EC"
+        android:pathData="
+            M32,52 C26,50 24,58 30,60 C32,61 34,58 34,56 Z"/>
+
+    <!-- ── Right wing ── -->
+    <path
+        android:fillColor="#E8F5EC"
+        android:pathData="
+            M76,52 C82,50 84,58 78,60 C76,61 74,58 74,56 Z"/>
+
+    <!-- ── Tail feathers ── -->
+    <path
+        android:fillColor="#E8F5EC"
+        android:pathData="M54,72 C50,76 44,80 46,84 C48,82 52,80 54,78 C56,80 60,82 62,84 C64,80 58,76 54,72 Z"/>
+
+    <!-- ── Neck ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,36 C48,30 60,30 60,36 Z"/>
+
+    <!-- ── Head ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M54,18
+            C46,18 40,23 40,29
+            C40,35 46,40 54,40
+            C62,40 68,35 68,29
+            C68,23 62,18 54,18 Z"/>
+
+    <!-- ── Comb (red, 3 bumps) ── -->
+    <path
+        android:fillColor="#FF5F6D"
+        android:pathData="
+            M48,18 C48,14 51,12 51,16 C51,12 54,10 54,14 C54,10 57,12 57,16 C57,12 60,14 60,18
+            L48,18 Z"/>
+
+    <!-- ── Wattle (red teardrop under beak) ── -->
+    <path
+        android:fillColor="#FF5F6D"
+        android:pathData="M54,34 C52,34 51,36 51,38 C51,40 52,41 54,41 C56,41 57,40 57,38 C57,36 56,34 54,34 Z"/>
+
+    <!-- ── Beak (gold/yellow) ── -->
+    <path
+        android:fillColor="#D4A843"
+        android:pathData="M50,28 L54,32 L58,28 L54,26 Z"/>
+
+    <!-- ── Left eye (white) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,25 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"/>
+
+    <!-- ── Right eye (white) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,25 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"/>
+
+    <!-- ── Left pupil ── -->
+    <path
+        android:fillColor="#0C2414"
+        android:pathData="M47,25 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- ── Right pupil ── -->
+    <path
+        android:fillColor="#0C2414"
+        android:pathData="M61,25 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- ── Left eye shine ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,23 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+
+    <!-- ── Right eye shine ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,23 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+
+    <!-- ── Left leg ── -->
+    <path
+        android:fillColor="#D4A843"
+        android:pathData="M46,72 L44,82 M44,82 L40,84 M44,82 L44,86 M44,82 L48,85"
+        android:strokeColor="#D4A843"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- ── Right leg ── -->
+    <path
+        android:fillColor="#D4A843"
+        android:pathData="M62,72 L64,82 M64,82 L60,84 M64,82 L64,86 M64,82 L68,85"
+        android:strokeColor="#D4A843"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- ── "PSR" text below chicken ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M34,92 L34,100 L36,100 L36,97 L38,97 C39.5,97 40.5,96 40.5,94.5
+            C40.5,93 39.5,92 38,92 Z
+            M36,93.5 L38,93.5 C38.8,93.5 39,94 39,94.5
+            C39,95 38.8,95.5 38,95.5 L36,95.5 Z
+
+            M43,92 L41,92 L41,100 L43,100 L43,97.5 L44.5,97.5 L46,100
+            L48,100 L46.2,97.2 C47.2,96.8 47.8,95.8 47.8,94.5
+            C47.8,93 46.8,92 45,92 Z
+            M43,93.5 L45,93.5 C45.8,93.5 46.2,94 46.2,94.5
+            C46.2,95 45.8,95.5 45,95.5 L43,95.5 Z
+
+            M50,100 L57,100 L57,98.5 L52,98.5 L52,96.8 L56.5,96.8
+            L56.5,95.3 L52,95.3 L52,93.5 L57,93.5 L57,92 L50,92 Z"/>
+
+    <!-- ── "mart" text ── -->
+    <path
+        android:fillColor="#4CAF7D"
+        android:pathData="
+            M59,100 L59,93 L61,93 L63,98 L65,93 L67,93 L67,100 L65.5,100
+            L65.5,95 L63.5,100 L62.5,100 L60.5,95 L60.5,100 Z
+
+            M69,100 L69,94 L71,94 L71,100 Z
+            M69,91.5 L71,91.5 L71,93 L69,93 Z
+
+            M73,100 L73,95.2 L72,95.2 L72,94 L73,94 L73,92 L74.5,92
+            L74.5,94 L76,94 L76,95.2 L74.5,95.2 L74.5,100 Z"/>
+
+</vector>
